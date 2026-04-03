@@ -4,12 +4,9 @@
         "bind": "loopback",
         "controlUi": {
             "allowInsecureAuth": true,
-            "allowedOrigins": ["https://openclaw.tailc1fc9.ts.net:18789"]
+            "allowedOrigins": ["https://openclaw.tailc1fc9.ts.net:18789","http://openclaw.tailc1fc9.ts.net:18789"]
         },
-        "tailscale": { "mode": "serve" },
-        "auth": {
-            "allowTailscale": true
-        }
+        "tailscale": { "mode": "serve" }
     },
     "plugins": {
         "enabled": true,
