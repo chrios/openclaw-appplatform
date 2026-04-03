@@ -3,8 +3,7 @@
         "mode": "local",
         "bind": "loopback",
         "controlUi": {
-            "allowInsecureAuth": true,
-            "allowedOrigins": "http://openclaw.tailc1fc9.ts.net/"
+            "allowInsecureAuth": true
         }
     },
     "plugins": {
