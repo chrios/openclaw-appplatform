@@ -6,7 +6,8 @@
             "allowInsecureAuth": true,
             "allowedOrigins": ["https://openclaw.tailc1fc9.ts.net:18789","http://openclaw.tailc1fc9.ts.net:18789"]
         },
-        "tailscale": { "mode": "serve" }
+        "tailscale": { "mode": "serve" },
+        "allowInsecureAuth": false
     },
     "plugins": {
         "enabled": true,
