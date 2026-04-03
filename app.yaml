@@ -1,5 +1,5 @@
 name: openclaw
-region: tor # Available: nyc, ams, sfo, sgp, lon, fra, blr, syd, tor
+region: syd # Available: nyc, ams, sfo, sgp, lon, fra, blr, syd, tor
 
 workers:
   - name: openclaw
