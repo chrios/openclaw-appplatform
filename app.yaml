@@ -70,10 +70,10 @@ workers:
         type: SECRET
       - key: RESTIC_SPACES_ENDPOINT
         scope: RUN_TIME
-        value: tor1.digitaloceanspaces.com
+        value: syd.digitaloceanspaces.com
       - key: RESTIC_SPACES_BUCKET
         scope: RUN_TIME
-        value: openclaw-backup
+        value: openclaw
       - key: RESTIC_PASSWORD
         scope: RUN_TIME
         type: SECRET
@@ -92,4 +92,4 @@ workers:
         value: "false"
       - key: GITHUB_USERNAME
         scope: RUN_TIME
-        value: ""
+        value: "openclaw"
