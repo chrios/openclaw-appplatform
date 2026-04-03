@@ -4,7 +4,8 @@
         "bind": "loopback",
         "controlUi": {
             "allowInsecureAuth": true
-        }
+        },
+        "tailscale": { "mode": "serve" }
     },
     "plugins": {
         "enabled": true,
