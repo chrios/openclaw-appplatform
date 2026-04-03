@@ -70,7 +70,7 @@ workers:
         type: SECRET
       - key: RESTIC_SPACES_ENDPOINT
         scope: RUN_TIME
-        value: syd.digitaloceanspaces.com
+        value: syd1.digitaloceanspaces.com
       - key: RESTIC_SPACES_BUCKET
         scope: RUN_TIME
         value: openclaw
